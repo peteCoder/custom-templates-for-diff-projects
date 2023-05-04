@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .hamburger {
+        @apply p-[10px] flex flex-col transition-all duration-300;
+    }
+    .line {
+        @apply inline-block w-[35px] h-[2px] bg-white my-[3px] mx-auto transition-all duration-300;
+    }
+}
+
+.text-piggybank, .text-primary, .text-primary-500 {
+    color: #083e9e;
+}
+.bg-primary-700 {
+    background-color: #062863;
+}
+
+.intsAz {
+    background-image: url('./images/bg1.png'), url('./images/bg2.png'), url('./images/bg3.png'), url('./images/bg4.png');
+    background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 15%, 15%, 15%, 15%;
+}
+
+
+.biJPjj {
+    background-color: rgb(8, 62, 158);
+}
+
+.bWMhOM {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    
+}
+
+.hshasj{
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    visibility: hidden; 
+    height: 0px; 
+    overflow: scroll; 
+    white-space: pre; 
+    font-size: 16px; 
+    /* font-family: -apple-system, &quot;system-ui&quot;, &quot;segoe ui&quot;, Roboto, &quot;helvetica neue&quot;, Arial, &quot;noto sans&quot;, sans-serif, &quot;apple color emoji&quot;, &quot;segoe ui emoji&quot;, &quot;segoe ui symbol&quot;, &quot;noto color emoji&quot;;  */
+    font-weight: 400; 
+    font-style: normal; 
+    letter-spacing: normal; 
+    text-transform: none;
+}
+
+
+.lojjdhjs {
+    box-sizing: content-box; 
+    width: 2px; 
+    background: 0px center; 
+    border: 0px; 
+    font-size: inherit; 
+    opacity: 1; 
+    outline: 0px; 
+    padding: 0px; 
+    color: inherit;
+}
+
+.kshhdj{
+    display: inline-block;
+}
+
+
+.nav-shadow {
+    box-shadow: 0 0 7px 0 #ced3da;
+}
+
+.nav-active-a {
+    transform-origin: .3rem .5rem;
+}
+
+.nav-active-b {
+    transform-origin: .08rem .02rem;
+}
+
+
+.matrix {
+    transform: matrix(1, 0, 0, -1, 0, 5,5);
+    transform-style: preserve-3d;
+}
+
+
+.flex-basis {
+    flex-basis: auto;
+}
+
+
+.shadow-special {
+    /* flex: 0 0 auto; */
+    padding: 30px 20px;
+    box-shadow: 0 5px 15px rgba(6, 34, 51, 0.15);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    /* height: 100%; */
+    max-width: 100%;
+    background-color: #09314a;
+}
+
+
+.hotel-gradient {
+    background: linear-gradient(180.1deg, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 99.91%);
+}
+
+
+
+
+
